@@ -1,0 +1,120 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100vh;
+    background-color: #d1d1d1;
+}
+h1
+{
+    color: red;
+    font-size: 5vw;
+    height: fit-content;
+}
+h2
+{
+    color: #c20000;
+    font-size: 2vw;
+    height: fit-content;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+ol
+{
+    list-style-type: check-mark;
+}
+.sidebar
+{
+    position: fixed;
+    display: flex;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background: #434249;
+}
+.sidebar img
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+}
+.scrollbox
+{
+    overflow: auto;
+}
+.content
+{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 200vh;
+}
+.one{
+    background: linear-gradient(170deg, white, rgba(182, 182, 182, 0.933), rgba(116, 116, 116, 0.933));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40vw;
+    margin-top: 2vw;
+    margin-left: 15%;
+}
+.two{
+    background: linear-gradient(170deg, white, rgba(182, 182, 182, 0.933), rgba(116, 116, 116, 0.933));
+    width: 50%;
+    height: 40vw;
+    margin-top: 2vw;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align: center;
+    justify-content: center;   
+}
+.two p
+{
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+.three{
+    background: linear-gradient(170deg, white, rgba(182, 182, 182, 0.933), rgba(116, 116, 116, 0.933));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 40vw;
+    margin-top: 2vw;
+    margin-left: 15%;
+}
+.three h1{
+    font-size: 3vw;
+}
+.four{
+    background: linear-gradient(170deg, white, rgba(182, 182, 182, 0.933), rgba(116, 116, 116, 0.933));
+    width: 50%;
+    height: 40vw;
+    margin-top: 2vw;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align: center;
+    justify-content: center;  
+}
+
+@counter-style check-mark {
+    system: cyclic;
+    symbols: "\2713";
+    suffix: " ";
+  }
